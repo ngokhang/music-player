@@ -81,6 +81,11 @@ img {
 
 .player-controls span:hover {
   color: rgba(247, 131, 245, 0.993);
+  transition: all 0.25s ease;
+}
+
+.player-controls button.active > span {
+  color: rgba(247, 131, 245, 0.993);
 }
 
 .player-controls #play-btn span:first-child {
